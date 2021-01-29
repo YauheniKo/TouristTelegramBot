@@ -4,7 +4,7 @@ The application Telegram bot that displays information (stored in the database) 
 
 ### Database configuration
 
-1.	Create database city. 
+1.	Create data base. 
 
    Predefined data base name - **my_db_bot**;
    
