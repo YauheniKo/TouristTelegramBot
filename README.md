@@ -4,14 +4,22 @@ The application Telegram bot that displays information (stored in the database) 
 
 ### Database configuration
 
-1.	Create database city. Predefined username - root; Predefined password - root
- - Change in properties if required:
+1.	Create database city. 
+
+   Predefined data base name - **my_db_bot**;
+   
+   Predefined username - **root**; 
+   
+   Predefined password - **root**; 
+   
+   
+ - Change in properties if required (src/main/resources/application.properties) :
  
- a) spring.datasource.url=jdbc:mysql://localhost:3306/my_db_bot?useUnicode=true&serverTimezone=UTC&useSSL=false
+ a) spring.datasource.url=jdbc:mysql://localhost:3306/**my_db_bot**?useUnicode=true&serverTimezone=UTC&useSSL=false
     
- b) spring.datasource.username=root
+ b) spring.datasource.username=**root**
      
- c) spring.datasource.password=root
+ c) spring.datasource.password=**root**
   
 2.	Run the application
 
