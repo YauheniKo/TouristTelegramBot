@@ -20,6 +20,8 @@ The application Telegram bot that displays information (stored in the database) 
  b) spring.datasource.username=**root**
      
  c) spring.datasource.password=**root**
+ 
+> The application is running on port 8080. If you have this port occupied -> uncomment server.port = **** (located in application.properties) and instead of ****, write down the port that you have free.
   
 2.	Run the application
 
